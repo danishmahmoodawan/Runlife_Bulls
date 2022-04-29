@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'RubikMonoOne';
+    src: url('../fonts/RubikMonoOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bungee';
+    src: url('../fonts/Bungee-Regular.ttf');
+}
+body{
+    background: black;
+}
+.h1_heading{
+    font-size: 60px;
+    font-weight: 800;
+    color: #50cf5a
+}
+
+.heading_h3{
+    font-family: 'Bungee';
+    font-size: 25px;
+    color: #000;
+}
+.custom_row, .custom_rows{
+    background: #e11ba7;
+    margin-top: -7%;
+    border-radius: 10px;
+}
+.img_set{
+border-radius: 20px;
+}
+.set_head{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.custom_rows{
+    margin-top: 6%;
+}
+.faq_row{
+
+}
+#about_team{
+    padding: 4% 8% 5% 8%;
+    background: #fda700;
+}
+#roadmap{
+    padding: 4% 8% 5% 8%;
+    background: #9420ce;
+}
+.faq_section{
+   background:  #fc6d02;
+}
+.about_pakalolo img, img{
+width: 100%;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    color: white !important;
+    text-transform: uppercase;
+  }
+  .nav-link:hover{
+      color: #50cf5a !important;
+  }
+  .navbar-nav li:last-child{
+    margin-right: 10px;
+  }
+  .para_p {
+    color: #f0eaea;
+    font-weight: 400;
+    font-size: 21px;
+  }
+  .banner_div{
+      position: relative;
+  }
+  .img_banner{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+  }
+  .p_ad{
+margin-bottom: 12%;
+  }
+  .button_buy{
+font-size: 26px;
+color: white;
+border: 2px solid #50cf5a;
+padding: 5px 30px 8px 30px;
+border-radius: 10px;
+box-shadow: -1px 0px 22px 0px rgb(80 207 90);
+-webkit-box-shadow: -1px 0px 22px 0px rgb(80 207 90);
+-moz-box-shadow: -1px 0px 22px 0px rgb(80 207 90);
+
+  }
+  .member_name{
+    font-size: 1.3em;
+    font-family: 'Bungee';
+    padding: 20px 0 0 0;
+  }
+  .img_sm{
+    width: 100%;
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
+    border: 4px solid #fff;
+    box-shadow: 5px 5px 0 rgb(0 0 0 / 20%);
+  }
+  .team-socials, .member_image, .member_card {
+      position: relative;
+  }
+.member_image:hover{
+    background-image: url('Mikael.gif') !important; 
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    line-height: 0;
+    border: 4px solid #fff;
+    box-shadow: 5px 5px 0 rgb(0 0 0 / 20%);
+}
+.img_sm:hover{
+    opacity: 0;
+}
+.logo_s{
+    padding-bottom: 12px;
+}
+  .team-socials{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  .member_disg{
+      font-size: 0.9em;
+      font-family: 'Bungee';
+      padding: 0 0 10px 0;
+      font-weight: 300;
+      color: white;
+  }
+  .member_bio{
+      font-weight: 500;
+  }
+  .baner_sec{
+      padding-top: 8%;
+  }
+  .col_text{
+      margin-bottom: 12%;
+  }
+  .button_buy:hover{
+      color: black;
+      background: #50cf5a;
+      text-decoration: none;
+  }
+  .bg-nav{
+  /* background: rgb(0,40,136); */
+  background: black;
+} 
+.first_section{
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width: 1220px) and (min-width: 992px) {
+    .custom_row{
+        margin-top: -10%; 
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 993px) {
+    .background_sec{
+        height: 100vh;
+margin-top: -5%;
+    }
+}
+@media screen and (max-width: 1499px) and (min-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .background_sec{
+        height: 100vh;
+        margin-top: -7%; 
+    }
+    .custom_row{
+        margin-top: -10%; 
+    }
+    .faq_row .mb-0{
+        display: inline-block;
+    }
+    .faq_row .btn-link{
+        display: contents;
+    }
+    .p-5{
+        padding: 1rem !important;
+    }
+    .heading_h1{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+}
+  @media only screen and (max-width: 767px) {
+ .logo_s{
+     width: 100%;
+     padding-bottom: 0;
+    }
+    .navbar-brand{
+        display: block;
+        margin: 0 auto;
+    }
+    .team_row .pb-5 {
+padding-bottom: 0 !important;
+    }
+    #roadmap{
+        padding: 4% 1% 4% 1%;
+    }
+    .background_sec{
+        background-size: contain;
+        margin-top: -14%;
+        height: 33vh;
+    }
+    .p-5{
+        padding: 1rem !important;
+    }
+    .heading_h1{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .faq_row .mb-0{
+text-align: center;
+    }
+    .card-header{
+        padding: 0;
+    }
+    .bg-nav{
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    } 
+    .navbar-toggler{
+margin: 0 auto;
+    }
+    .navbar-light .navbar-toggler{
+        background: #fdd200;
+        border-color: #fdd200;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+}
+
+  
