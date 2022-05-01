@@ -36,13 +36,13 @@ function Home() {
 		<div className="row">
 			<div className="col-sm-12 col-md-12 col-lg-4 col_text text-center">
             <h1 className="h1_heading pos_a">RUNLIFE BULLLS</h1>
-            <p className="para_p p_ad pos_a">A Unique collection of 7,777 NFT trading cards on the <br />
+            <p className="para_p p_ad">A Unique collection of 7,777 NFT trading cards on the <br />
             Ethereum blockchain. Every Card holds a different <br />
             rarity that grants you can access to the Runlife business <br />
             app & software among other exclusive perks, <br />
             giveaways, & events here at Runlife ranch.
             </p>
-                            <a className="button_buy pos_a" href="https://twitter.com" target={{target:"_blank"}}>
+                            <a className="button_buy" href="https://twitter.com" target={{target:"_blank"}}>
                            BUY NOW 
                             </a>
 				</div>

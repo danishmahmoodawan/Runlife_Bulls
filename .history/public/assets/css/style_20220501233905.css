@@ -19,7 +19,7 @@ width: 100%;
 }
 .pos_a{
 position: relative;
-left: 60px;
+left: 80px;
 }
 .nav-link{
     font-size: 20px;
@@ -95,9 +95,6 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
     .pos_a{
         position: relative;
         left: 0;
-        }
-        br{
-            display: none;
         }
   }
 @media screen and (max-width: 1499px) and (min-width: 1200px) {

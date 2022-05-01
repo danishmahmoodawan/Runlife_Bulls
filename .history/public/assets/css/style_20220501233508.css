@@ -19,7 +19,7 @@ width: 100%;
 }
 .pos_a{
 position: relative;
-left: 60px;
+left: 70px;
 }
 .nav-link{
     font-size: 20px;
@@ -92,13 +92,6 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
 }
 
 @media screen and (max-width: 1600px) and (min-width: 993px) {
-    .pos_a{
-        position: relative;
-        left: 0;
-        }
-        br{
-            display: none;
-        }
   }
 @media screen and (max-width: 1499px) and (min-width: 1200px) {
 
@@ -109,10 +102,6 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
     .img_banner{
         position: relative;
     }
-    .pos_a{
-        position: relative;
-        left: 0;
-        }
 }
   @media only screen and (max-width: 767px) {
  .logo_s{
@@ -123,10 +112,7 @@ box-shadow: -1px 0px 22px 0px rgb(80 207 90);
         display: block;
         margin: 0 auto;
     }
-    .pos_a{
-        position: relative;
-        left: 0;
-        }
+
     .bg-nav{
         padding-left: 2% !important;
         padding-right: 2% !important;

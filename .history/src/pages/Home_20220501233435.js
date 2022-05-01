@@ -42,7 +42,7 @@ function Home() {
             app & software among other exclusive perks, <br />
             giveaways, & events here at Runlife ranch.
             </p>
-                            <a className="button_buy pos_a" href="https://twitter.com" target={{target:"_blank"}}>
+                            <a className="button_buy" href="https://twitter.com" target={{target:"_blank"}}>
                            BUY NOW 
                             </a>
 				</div>
